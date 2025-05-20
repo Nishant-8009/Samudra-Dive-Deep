@@ -1,0 +1,65 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+# Common virtual environment directory names
+venv/
+env/
+.venv/
+.env/
+
+# --- Environment Variables ---
+# File often used for storing secrets/API keys (DO NOT COMMIT)
+.env
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- IDE / Editor Files ---
+# VSCode
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Vim swap files
+*.swp
+*.swo
+
+# --- Streamlit ---
+# Streamlit cache and configuration (usually not needed in repo)
+.streamlit/
+
+
+# Generated output images directory
+# Add this UNLESS you specifically want to track all generated images in Git.
+# If you want to track *some* outputs, keep this line and use ! exceptions,
+# e.g., !outputs/my_important_result.png
+
+enhanced/
+
+# --- Build / Distribution ---
+# Common build/distribution artifacts (may not be strictly needed now, but good practice)
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Logs ---
+*.log
+logs/
+test.py
+__pycache__/
